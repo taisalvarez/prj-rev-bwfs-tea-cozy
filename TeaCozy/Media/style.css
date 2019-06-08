@@ -1,0 +1,144 @@
+/* Universal styles */
+
+body {
+  font-family: Helvetica;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+}
+
+
+/* Header */
+header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  background-color: black;
+  display: flex;
+  width: 100%;
+  margin-top: 0;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+    }
+
+header a {
+    color: seashell;
+    }
+
+
+.logo img {
+  height: 50px;
+}
+
+.logo {
+    flex-grow: 1; /*it has to be on the div before the words*/
+}
+
+  header span {
+    text-decoration: underline;
+    margin-right: 20px;
+  }
+
+/* Our Mission */
+
+.mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+.text {
+  background-color: black;
+  width: 100%;
+/* I cant make the text go to the center */
+}
+
+  /* Tea of the month */
+/* .month h2 h4 {
+  display: flex;
+  background-color: white;
+} this isnt working */
+
+  /* Tiny teas */
+
+.month {
+  width: 1000px;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tiny-teas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.teatea {
+  text-align: center;
+  margin: 20px;
+}
+
+.teatea img {
+  height: 200px;
+  width: 300px;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+  /* Locations */
+  .locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+.address {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  display: block;
+  margin: 20px;
+}
+
+  /* Contact */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+  /* Footer */
+
+  footer {
+    display: flex;
+    text-align: left;
+  }
